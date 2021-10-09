@@ -13,7 +13,8 @@
 <p>
   <strong>Message url:</strong>
   #<%= @message.message_url %>
-  <%= link_to 'Show' %>
+  #<%= link_to 'Show' %>
+  <%= link_to "Message Record", message_path(@message)  %>
 </p>
 
 <%= link_to 'Edit', edit_message_path(@message) %> |
