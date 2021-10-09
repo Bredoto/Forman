@@ -12,7 +12,8 @@
 
 <p>
   <strong>Message url:</strong>
-  <%= @message.message_url %>
+  #<%= @message.message_url %>
+  <%= link_to 'Show' %>
 </p>
 
 <%= link_to 'Edit', edit_message_path(@message) %> |
